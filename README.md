@@ -1,6 +1,6 @@
 # medaka
 It's a chat app.
-[The Wall](https://www.youtube.com/watch?v=yJ7qQxzkh9E&t=362s)
+## reference: [The Wall](https://www.youtube.com/watch?v=yJ7qQxzkh9E&t=362s)
 
 ## Getting Started
 
