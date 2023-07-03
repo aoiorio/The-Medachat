@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:medaka/components/text_field.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:medaka/components/wall_post.dart';
+import 'package:medaka/pages/my_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -66,6 +67,16 @@ class _HomePageState extends State<HomePage> {
             icon: const Icon(Icons.logout),
           ),
         ],
+        leading: IconButton(
+          icon: const Icon(Icons.account_circle_outlined),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const MyPage()),
+            );
+          },
+          iconSize: 35,
+        ),
         backgroundColor: const Color.fromARGB(255, 186, 187, 194),
         elevation: 0,
       ),
