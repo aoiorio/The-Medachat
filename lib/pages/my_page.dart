@@ -76,7 +76,7 @@ class _MyPageState extends State<MyPage> {
                     const Text(
                       "Set your name",
                       style:
-                          TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 30, fontWeight: FontWeight.bold), // font weight で文字の太さを変えられる
                     )
                   else // nameの中身があったら、Hi, [そのname]!を表示する
                     Text(
