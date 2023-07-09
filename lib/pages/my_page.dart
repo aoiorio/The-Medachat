@@ -80,7 +80,7 @@ class _MyPageState extends State<MyPage> {
                     )
                   else // nameの中身があったら、Hi, [そのname]!を表示する
                     Text(
-                      "Hi, $userName!",
+                      "Hi, $userName!", // $でテキストに文字を埋め込むことができる
                       style: const TextStyle(
                           fontSize: 30, fontWeight: FontWeight.bold),
                     ),
