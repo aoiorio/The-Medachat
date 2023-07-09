@@ -15,13 +15,12 @@ class _MyPageState extends State<MyPage> {
   final favoriteFoodController = TextEditingController();
   final prefs = SharedPreferences.getInstance();
   var userName;
-
+  
   @override
   void initState() {
     super.initState();
     init();
   }
-
   //画面起動時に読み込むメソッド
   void init() async {
     final prefs = await SharedPreferences.getInstance();
@@ -73,7 +72,7 @@ class _MyPageState extends State<MyPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const SizedBox(height: 80),
-                  if (userName == '') // nameの中身が空だったら、Set your nameと表示する
+                  if (userName == '' || userName == null) // nameの中身が空だったら、Set your nameと表示する
                     const Text(
                       "Set your name",
                       style:
