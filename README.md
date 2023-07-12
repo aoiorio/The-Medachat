@@ -1,6 +1,6 @@
 # medaka
 It's a chat app.
-I think that Medaka is a wondrful fish
+I think that Medaka is a wondrful fish around 
 ## reference: [The Wall by Mitch Koko](https://www.youtube.com/watch?v=yJ7qQxzkh9E&t=362s)
 
 ## Getting Started
